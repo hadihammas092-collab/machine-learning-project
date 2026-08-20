@@ -2,16 +2,6 @@
   "cells": [
     {
       "cell_type": "markdown",
-      "metadata": {
-        "id": "view-in-github",
-        "colab_type": "text"
-      },
-      "source": [
-        "<a href=\"https://colab.research.google.com/github/hadihammas092-collab/machine-learning-project/blob/main/learning%20phyton\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
-      ]
-    },
-    {
-      "cell_type": "markdown",
       "id": "31d9a4c9",
       "metadata": {
         "origin_pos": 0,
@@ -195,11 +185,11 @@
         "print(marks !=45)"
       ],
       "metadata": {
-        "id": "EnPYG8q8D2_V",
-        "outputId": "2e4d505f-5778-4c9b-bccf-1a7587463dcb",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "EnPYG8q8D2_V",
+        "outputId": "2e4d505f-5778-4c9b-bccf-1a7587463dcb"
       },
       "id": "EnPYG8q8D2_V",
       "execution_count": 1,
@@ -211,6 +201,58 @@
             "False\n",
             "True\n",
             "False\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "age = int(input('enter your age:'))\n",
+        "print(age > 18)"
+      ],
+      "metadata": {
+        "id": "rRP9PxOYFkJg",
+        "outputId": "0fb94d86-f12b-4999-dc71-fab2dbe72d5b",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "id": "rRP9PxOYFkJg",
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter your age:17\n",
+            "False\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "marks = float(input('enter your marks'))\n",
+        "print(55 >= 50)"
+      ],
+      "metadata": {
+        "id": "D9Lc_XS1HBQ1",
+        "outputId": "ad9d18b2-1cb3-45ac-c162-6b986abc41e3",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "id": "D9Lc_XS1HBQ1",
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter your marks55\n",
+            "True\n"
           ]
         }
       ]
@@ -226,8 +268,7 @@
     },
     "required_libs": [],
     "colab": {
-      "provenance": [],
-      "include_colab_link": true
+      "provenance": []
     }
   },
   "nbformat": 4,
