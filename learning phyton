@@ -165,33 +165,44 @@
     {
       "cell_type": "code",
       "source": [
-        "weather = int(input('tell a weather:'))\n",
-        "if weather = ('40 or above:')\n",
-        "print = very hot\n",
-        "elif = ('30 > 39')\n",
-        "print = hot\n",
-        "elif = ('20 > 29')\n",
-        "print = pleasant\n",
-        "elif = ('< 20')\n",
-        "print = ( cold)"
+        "for i in range(0-9):\n",
+        "  print (i)"
       ],
       "metadata": {
-        "id": "6Amse6a3FMmQ",
-        "outputId": "2e663e14-5b3b-4f20-b2ef-8dff446bbfce",
+        "id": "JOKYjrq8OaJv"
+      },
+      "id": "JOKYjrq8OaJv",
+      "execution_count": 27,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#range (start, stop,step)\n",
+        "for i in range(1,8,1):\n",
+        "  print(i)"
+      ],
+      "metadata": {
+        "id": "xUHUWd-sP27x",
+        "outputId": "708eb1cd-7614-495c-e61e-610673637931",
         "colab": {
-          "base_uri": "https://localhost:8080/",
-          "height": 106
+          "base_uri": "https://localhost:8080/"
         }
       },
-      "id": "6Amse6a3FMmQ",
-      "execution_count": 1,
+      "id": "xUHUWd-sP27x",
+      "execution_count": 30,
       "outputs": [
         {
-          "output_type": "error",
-          "ename": "SyntaxError",
-          "evalue": "invalid syntax. Maybe you meant '==' or ':=' instead of '='? (3956575445.py, line 2)",
-          "traceback": [
-            "\u001b[0;36m  File \u001b[0;32m\"/tmp/ipykernel_2039/3956575445.py\"\u001b[0;36m, line \u001b[0;32m2\u001b[0m\n\u001b[0;31m    if weather = ('40 or above:')\u001b[0m\n\u001b[0m       ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax. Maybe you meant '==' or ':=' instead of '='?\n"
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "2\n",
+            "3\n",
+            "4\n",
+            "5\n",
+            "6\n",
+            "7\n"
           ]
         }
       ]
@@ -199,33 +210,238 @@
     {
       "cell_type": "code",
       "source": [
-        "age = int(input('enter your age:'))\n",
-        "reg = input('have you enterd')\n",
-        "if age <= 16\n",
-        "  print ('conguralation you are seletecd')\n",
-        "else\n",
-        "  print = ('sorry')\n"
+        "# print even number from 2 to 20 using for loop\n",
+        "for i in range(2,2):\n",
+        "  print(odd number)"
       ],
       "metadata": {
-        "id": "cAD4-rnfKVgP",
-        "outputId": "8731806a-4a4a-4a05-9bbc-4c8f2d4d3ef1",
+        "id": "OCluvcPURp8j",
+        "outputId": "3367d843-4967-4889-9d47-185242276a1f",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 106
         }
       },
-      "id": "cAD4-rnfKVgP",
-      "execution_count": 3,
+      "id": "OCluvcPURp8j",
+      "execution_count": 44,
       "outputs": [
         {
           "output_type": "error",
           "ename": "SyntaxError",
-          "evalue": "expected ':' (3582581841.py, line 3)",
+          "evalue": "invalid syntax. Perhaps you forgot a comma? (2460606295.py, line 3)",
           "traceback": [
-            "\u001b[0;36m  File \u001b[0;32m\"/tmp/ipykernel_2039/3582581841.py\"\u001b[0;36m, line \u001b[0;32m3\u001b[0m\n\u001b[0;31m    if age <= 16\u001b[0m\n\u001b[0m                ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m expected ':'\n"
+            "\u001b[0;36m  File \u001b[0;32m\"/tmp/ipykernel_1825/2460606295.py\"\u001b[0;36m, line \u001b[0;32m3\u001b[0m\n\u001b[0;31m    print(odd number)\u001b[0m\n\u001b[0m          ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax. Perhaps you forgot a comma?\n"
           ]
         }
       ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#range (start, stop, step)\n",
+        "for i in range(2,20,2):\n",
+        "  print(i)"
+      ],
+      "metadata": {
+        "id": "FQYUZz4USm_y",
+        "outputId": "e3478507-9116-42e6-a645-013d85577df9",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "id": "FQYUZz4USm_y",
+      "execution_count": 46,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2\n",
+            "4\n",
+            "6\n",
+            "8\n",
+            "10\n",
+            "12\n",
+            "14\n",
+            "16\n",
+            "18\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "table = int(input('ask a table:'))\n",
+        "for i in range (1, 11):\n",
+        "  print(table, 'x', i, '=', table*i)\n"
+      ],
+      "metadata": {
+        "id": "TFfzcyCSULUb",
+        "outputId": "fd998403-6d9a-4d1c-c0b8-949e3ad1a28d",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "id": "TFfzcyCSULUb",
+      "execution_count": 49,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ask a table:5\n",
+            "5 x 1 = 5\n",
+            "5 x 2 = 10\n",
+            "5 x 3 = 15\n",
+            "5 x 4 = 20\n",
+            "5 x 5 = 25\n",
+            "5 x 6 = 30\n",
+            "5 x 7 = 35\n",
+            "5 x 8 = 40\n",
+            "5 x 9 = 45\n",
+            "5 x 10 = 50\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name = (input('enter your name:'))\n",
+        "time = int(input('how many times print:'))\n",
+        "for i in range(time):\n",
+        "  print(time)\n"
+      ],
+      "metadata": {
+        "id": "KfetPXoGWJR4",
+        "outputId": "5ae77431-eb92-4e2f-e614-29c77275a95f",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "id": "KfetPXoGWJR4",
+      "execution_count": 55,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter your name:hadi\n",
+            "how many times print:100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n",
+            "100\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "6HFAcFVcX1oq"
+      },
+      "id": "6HFAcFVcX1oq",
+      "execution_count": null,
+      "outputs": []
     }
   ],
   "metadata": {
